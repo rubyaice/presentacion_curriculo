@@ -1,0 +1,250 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+
+	background: url('../img/bg1.png');
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Open Sans', Sans-serif, Arial, Helvetica;
+}
+
+a{
+
+	text-decoration: none;
+}
+
+.container{
+
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.tarjeta{
+
+	background: #fff;
+	margin: 40px 0;
+	border-radius: 6px;
+	overflow: hidden;
+	z-index: 1000;
+	width: 100%;
+}
+
+/*--------------------------------------------------
+-----------------Slider banner-------------------------*/
+.slider-banner{
+
+	overflow: hidden;
+	z-index: 1000;
+	position: relative;
+}
+
+.slider-banner .banner{
+
+	position: relative;
+	width: 100%;
+}
+
+.slider-banner .banner img{
+
+	vertical-align: top;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+
+.slider-banner .flecha-banner{
+	
+	font-size: 35px;
+	line-height: 35px;
+	color: rgba(0,0,0,.2);
+	position: absolute;
+	top: 50%;
+	z-index: 1100;
+}
+
+.slider-banner .flecha-banner:hover{
+
+	color: rgba(0,0,0,.5);
+}
+
+.slider-banner .anterior{
+
+	left: 20px;
+}
+
+.slider-banner .siguiente{
+
+	right: 20px;
+}
+
+/**--------------------------------------------
+/**-----------slider Info----------------------**/
+.slider-info{
+
+	text-align: center;
+	overflow: hidden;
+	padding: 20px 0;
+	z-index: 1000;
+	position: relative;
+}
+
+/**---------section informacion---------------*//
+.slider-info .informacion{
+
+	width: 100%;
+}
+
+.slider-info .informacion article{
+
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider-info .informacion article .slide{
+
+	background: #fff;
+	width: 100%;
+	padding: 20px 80px;
+	left: 100%;
+	position: absolute;
+}
+
+.slider-info .flecha-info{
+
+	font-size: 35px;
+	line-height: 35px;
+	color: #e6e6e6;
+	position: absolute;
+	z-index: 1000;
+}
+
+.slider-info .flecha-info:hover {
+
+	color: #6ed275;
+}
+
+.slider-info .anterior{
+
+	right: 20px;
+}
+
+.slider-info .siguiente{
+
+	left: 20px;
+}
+
+/*-------------slide Info-------------*/
+
+.slider-info .informacion .nombre{
+
+	color: #444;
+	font-size: 38px;
+	line-height: 38px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+.slider-info .informacion .trabajo{
+
+	color: #55acee;
+	font-size: 18px;
+	line-height: 18px;
+	margin-bottom: 16px;
+}
+
+.slider-info .informacion .pais{
+
+	color: #8d8d8d;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.slider-info .informacion .pais img{
+
+	position: relative;
+	top: 2px;
+	margin-right: 10px;
+
+}
+
+.slider-info .informacion .subtitulo{
+
+	color: #444;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 16px;
+}
+
+.slider-info .informacion .texto{
+
+	color: #55acee;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+/*Botones Slider Info*/
+
+.slider-info .botones{
+
+	width: 100%;
+}
+
+.slider-info .botones span{
+
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	margin: 0 10px;
+	border-radius: 50%;
+	background: #e6e6e6;
+}
+
+.slider-info .botones .active{
+
+	background: #6ed279;
+}
+
+/*Rees sociales*/
+
+.redes-sociales{
+
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.redes-sociales a{
+	
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 20px;
+	color: #fff;
+	background: #000;
+	padding: 14px 0;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
+.redes-sociales .bahance{
+
+	background: #1769ff;
+}
+
+.redes-sociales .facebook{
+
+	background: #3b5998;
+}
